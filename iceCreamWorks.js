@@ -50,68 +50,68 @@ function displayProducts(products) {
         img.addEventListener('click', function () {
 
             if (this.getAttribute('data-type') === "Chocolate & To Die For") {
-                window.location.href = "../Chocolate & To Die For/Chocolate & To Die For.html";
+                window.location.href = "./Chocolate & To Die For/Chocolate & To Die For.html";
             }
         });
         img.addEventListener('click', function () {
 
             if (this.getAttribute('data-type') === "Sea Salat Caramel Fudge") {
-                window.location.href = "../Sea Salat Caramel Fudge/Sea Salat Caramel Fudge.html";
+                window.location.href = "./Sea Salat Caramel Fudge/Sea Salat Caramel Fudge.html";
             }
         });
         img.addEventListener('click', function () {
 
             if (this.getAttribute('data-type') === "Madagascar's Finest Chocolate") {
-                window.location.href = "../Madagascar's Finest Chocolate/Madagascar's Finest Chocolate.html";
+                window.location.href = "./Madagascar's Finest Chocolate/Madagascar's Finest Chocolate.html";
             }
         });
 
         img.addEventListener('click', function () {
 
             if (this.getAttribute('data-type') === "Midnight Chocolate Brownie") {
-                window.location.href = "../Midnight Chocolate Brownie/Midnight Chocolate Brownie.html";
+                window.location.href = "./Midnight Chocolate Brownie/Midnight Chocolate Brownie.html";
             }
         });
 
         img.addEventListener('click', function () {
 
             if (this.getAttribute('data-type') === "Blegian Choco Fudge") {
-                window.location.href = "../Blegian Choco Fudge/Blegian Choco Fudge.html";
+                window.location.href = "./Blegian Choco Fudge/Blegian Choco Fudge.html";
             }
         });
 
         img.addEventListener('click', function () {
 
             if (this.getAttribute('data-type') === "Double Strawberry Chocolate Chip") {
-                window.location.href = "../Double Strawberry Chocolate Chip/Double Strawberry Chocolate Chip.html";
+                window.location.href = "./Double Strawberry Chocolate Chip/Double Strawberry Chocolate Chip.html";
             }
         });
 
         img.addEventListener('click', function () {
 
             if (this.getAttribute('data-type') === "King Alphonso") {
-                window.location.href = "../King Alphonso/King Alphonso.html";
+                window.location.href = "./King Alphonso/King Alphonso.html";
             }
         });
 
         img.addEventListener('click', function () {
 
             if (this.getAttribute('data-type') === "Mister Chocolate Chip") {
-                window.location.href = "../Mister Chocolate Chip/Mister Chocolate Chip.html";
+                window.location.href = "./Mister Chocolate Chip/Mister Chocolate Chip.html";
             }
         });
 
         img.addEventListener('click', function () {
 
             if (this.getAttribute('data-type') === "Crunch N Nut ButterScotch") {
-                window.location.href = "../Crunch N Nut ButterScotch/Crunch N Nut ButterScotch.html";
+                window.location.href = "./Crunch N Nut ButterScotch/Crunch N Nut ButterScotch.html";
             }
         });
 
         img.addEventListener('click', function () {
 
             if (this.getAttribute('data-type') === "That 70's Vanilla") {
-                window.location.href = "../That 70's Vanilla/That 70's Vanilla.html";
+                window.location.href = "./That 70's Vanilla/That 70's Vanilla.html";
             }
         });
 
