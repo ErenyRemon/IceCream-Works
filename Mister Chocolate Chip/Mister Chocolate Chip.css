@@ -1,0 +1,440 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: rgb(9 74 206);
+}
+
+.divtopOfPage {
+    background-color: #fa4616;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 100px;
+
+}
+
+.divtopOfPageHome,
+.divtopOfPageShop,
+.divtopOfPageAbout,
+.divtopOfPageParlours,
+.divtopOfPageFranchies,
+.divtopOfPageContact {
+    color: white;
+    padding-bottom: 2px;
+    text-decoration: none;
+    margin-left: 10px;
+    vertical-align: 20px;
+
+}
+
+
+.divtopOfPageHome:hover,
+.divtopOfPageShop:hover,
+.divtopOfPageAbout:hover,
+.divtopOfPageParlours:hover,
+.divtopOfPageFranchies:hover,
+.divtopOfPageContact:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.divtopOfPageimg {
+    height: 70px;
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.bodyOfPage {
+    text-align: center;
+    margin-left: 170px;
+
+}
+
+
+.imgFront {
+    display: block;
+}
+
+
+main {
+    display: flex;
+    color: white;
+}
+
+.quantity {
+    
+    box-sizing: 40px;
+    border: red;
+    /* background-color: white; */
+
+}
+
+
+nav{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-items: center; */
+
+}
+.bigImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 20px;
+    
+    margin-left: 100px;
+
+
+    /* justify-content: center; */
+   
+}
+
+.mainImage{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.imgFront:hover{
+    cursor: pointer;
+    border-radius: 2px;
+    border-color: white;
+    
+}
+
+.frontImage:hover{
+    border-color: whitesmoke;
+    border-width: 2px;
+    
+}
+
+
+aside{
+    width: 50%;
+}
+
+.imgFront{
+    margin-left: 100px;
+}
+
+.youMayAlso{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* gap: 50px; */
+    text-align: center;
+    color: white;
+    /* margin: auto; */
+}
+.youMayAlso:hover{
+    cursor: pointer;
+}
+.quantity{
+    border: 2px solid white;
+    width: 100px;
+    /* display: flex;
+    justify-content: center; */
+    /* border-radius: 1px; */
+    border-width: 2px;
+    border-color: white;
+    background-color:rgb(9 74 206) ;
+
+}
+
+.quantity1{
+    display: flex;
+    /* justify-content: left; */
+    justify-content: space-around;
+    /* justify-items: center; */
+
+}
+
+.quantity1button{
+    /* width: 10px; */
+    background-color: rgb(9 74 206);
+    background-color:rgb(9 74 206) ;
+    /* border-radius: 0px; */
+    color: white;
+    border-width: 0px;
+    /* margin: 0px; */
+    
+}
+
+.quantity1button:hover{
+    cursor: pointer;
+   
+}
+
+.buttonBuyItNow{
+    height: 50px;
+    width: 150px;
+    border-radius: 2px;
+    border-color: whitesmoke;
+}
+
+.buttonBuyItNow:hover{
+    cursor: pointer;
+}
+
+
+.quantity1input{
+    background-color: rgb(9 74 206);
+    background-color:rgb(9 74 206) ;
+    border-width: 0px;
+    width: 30px;
+    height: 50px;
+    color: white;
+    /* margin: auto; */
+
+    /* gap: 20px; */
+    margin-left: 20px;
+    /* display: flex;
+    justify-content: center; */
+    
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+.divForbottomOfPage {
+    /* margin: 0px; */
+   
+    clear: both;
+    background-color: #fa4616;
+    color: white;
+    /* margin-top: 1000px; */
+    /* padding-top: 300px; */
+    width: 100%;
+    height: 400px;
+    padding-top: 20px;
+}
+
+
+#divForbottomOfPageQuickLinks {
+    margin-left: 40px;
+    padding-top: 20px;
+    color: white;
+    float: left;
+    margin: auto;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    /* height: 500px; */
+}
+
+.divForbottomOfPageQuickLinks1,
+.divForbottomOfPageQuickLinks2,
+.divForbottomOfPageQuickLinks3,
+.divForbottomOfPageQuickLinks4{
+    text-decoration: none;
+    color: white;
+}
+.divForbottomOfPageQuickLinks1:hover,
+.divForbottomOfPageQuickLinks2:hover,
+.divForbottomOfPageQuickLinks3:hover,
+.divForbottomOfPageQuickLinks4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.divForbottomOfPageQuickLinks:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.divForbottomOfPageIceCreamWorks{
+    color: white;
+    float: left;
+    margin-left: 500px;
+}
+
+.Subscribetoouremails{
+    padding-right: 30px; 
+}
+
+.divForbottomOfPageIceCreamWorksImg{
+    margin-left: 150px;
+}
+
+
+
+.bottomOfPage{
+    clear: both;
+    margin-top: 50px;
+}
+
+.bottomOfPagelink{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+
+}
+
+.bottomOfPagelink:hover{
+    cursor: pointer;
+    text-decoration: underline;   
+}
+
+.bottomOfPageparagraph{
+    padding-top: 35px;
+    /* margin-top: 10px; */
+    float: left;
+    margin-left: 400px;
+}
+
+.bottomOfPageimg{
+    margin-top: 25px;
+    margin-left: 10px;
+    float: left;
+    /* clear: both; */
+}
+
+/* .asideCookies{
+
+} */
+
+.shareDiv{
+    display: flex;
+    /* margin-left: 5px; */
+}
+
+.shareDiv:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.shareDivImg{
+    /* margin-top: 13px; */
+    margin-right: 7px;
+    
+}
+
+/* .classShare{
+
+    margin-top: 5px;
+} */
+
+/* .classShare:hover{
+    cursor: pointer;
+   text-decoration: underline;
+} */
+.materials:hover{
+    cursor: pointer;
+}
+
+.materials-content{
+    display: none;
+}
+
+.careInstructionsContent{
+    display: none;
+}
+.careInstructions:hover{
+    cursor: pointer;
+}
+
+.divImages{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.divClassics{
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.divClassicsImg:hover{
+    cursor: pointer;
+    scale: 2px;
+}
+
+.divBlackImg:hover{
+    cursor: pointer;
+}
+
+.divPremiumImg:hover{
+    cursor: pointer;
+}
+
+.divClassicsText:hover,.divPremiumtext:hover,.divBlackText:hover{
+    cursor: pointer;
+}
+
+
+.divOurBestsellers{
+    display: flex;
+    justify-content: center;
+    /* display: inline-block;
+    display: inline; */
+    color: white;
+}
+
+
+.divBlack{
+    color: white;
+}
+
+.divPremium{
+    color: white;
+}
+
+.divClassicsText{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.divBlackText{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.divPremiumtext{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.divImages img {
+    transition: filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.imgFront img:hover {
+    filter: brightness(1.2); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.divImages div {
+    overflow: hidden; 
+}
+
+.divImages img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.divImages img:hover {
+    transform: scale(1.05); 
+}
+
+
