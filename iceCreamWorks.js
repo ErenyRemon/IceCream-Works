@@ -1,6 +1,6 @@
 
 var xhr = new XMLHttpRequest();
-xhr.open('GET', './iceCreamWorks.json');
+xhr.open('GET', 'iceCreamWorks.json');
 xhr.onreadystatechange = function () {
     if (xhr.readyState == 4 && xhr.status == 200) {
         var result = JSON.parse(xhr.response);
