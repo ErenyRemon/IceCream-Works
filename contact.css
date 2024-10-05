@@ -1,0 +1,236 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.advert{
+    clear: both;
+    /* margin-top: 200px; */
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* margin: 20px auto; */
+    text-align: center;
+    /* margin-top: 100px; */
+    
+}
+
+.divFormSubmit{
+    border-radius: 20px;
+    color: white;
+    width: 80px;
+    height: 20px;
+    border-bottom-color: rgb(9 74 206);
+}
+
+.divFormSubmit:hover{
+    cursor: pointer;
+}
+
+.divtopOfPageimg {
+    height: 70px;
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.bodyOfPage {
+    text-align: center;
+    margin-left: 170px;
+
+}
+
+.spanName {
+    height: 10px;
+    width: 30px;
+    color: red
+        /* background-color: ; */
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: none; 
+}
+
+.divOfContactUs {
+    margin-left: 200px;
+    background-color: white;
+    float: left;
+}
+
+.contactUs {
+    width: 500px;
+    color: rgb(9 74 206);
+    margin-left: 100px;
+}
+
+.imgaddress {
+    float: left;
+}
+
+.h1Address {
+    float: left;
+}
+
+.divOfAddressOfparagraph {
+    clear: both;
+    width: 200px;
+}
+
+.imgPhone {
+    float: left;
+}
+
+.divOfPhone {
+    float: left;
+
+}
+
+.divPhone {
+    margin-top: 40px;
+}
+
+.divPhonephone {
+    clear: both;
+    width: 200px;
+    margin-left: 30px;
+}
+
+.addressAndPhone {
+    float: left;
+}
+
+.divOfOpenningHours {
+    color: rgb(9 74 206);
+    margin-left: 10px;
+}
+
+.imgOpenningHours {
+    float: left;
+}
+
+.imgEmail {
+    float: left;
+}
+
+.divEmail {
+    margin-top: 90px;
+}
+
+.h2Email {
+    padding-top: 5px;
+}
+
+.h2OpenningHours {
+    padding-top: 10px;
+}
+
+.divForm {
+    /* clear: both; */
+    background-color: whitesmoke;
+    width: 500px;
+    height: 550px;
+    float: left;
+    margin-left: 20px;
+    color: rgb(9 74 206);
+    text-align: center;
+}
+
+.divFormSubmit {
+    background-color: rgb(9 74 206);
+    color: white;
+    border-color: none;
+}
+
+
+
+.divForbottomOfPage {
+    /* margin: 0px; */
+    clear: both;
+    background-color: rgb(9 74 206);
+    color: white;
+    /* margin-top: 1000px; */
+    /* padding-top: 300px; */
+    width: 100%;
+    height: 300px;
+}
+
+
+#divForbottomOfPageQuickLinks {
+    color: white;
+    float: left;
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+
+.divForbottomOfPageQuickLinks1,
+.divForbottomOfPageQuickLinks2,
+.divForbottomOfPageQuickLinks3,
+.divForbottomOfPageQuickLinks4 {
+    text-decoration: none;
+    color: white;
+}
+
+.divForbottomOfPageQuickLinks1:hover,
+.divForbottomOfPageQuickLinks2:hover,
+.divForbottomOfPageQuickLinks3:hover,
+.divForbottomOfPageQuickLinks4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.divForbottomOfPageQuickLinks:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.divForbottomOfPageIceCreamWorks {
+    color: white;
+    float: left;
+    margin-left: 500px;
+}
+
+.Subscribetoouremails {
+    padding-right: 30px;
+}
+
+.divForbottomOfPageIceCreamWorksImg {
+    margin-left: 150px;
+}
+
+
+
+.bottomOfPage {
+    clear: both;
+    margin-top: 50px;
+}
+
+.bottomOfPagelink {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+
+}
+
+.bottomOfPagelink:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bottomOfPageparagraph {
+    padding-top: 20px;
+    /* margin-top: 10px; */
+    float: left;
+    margin-left: 400px;
+}
+
+.bottomOfPageimg {
+    margin-top: 25px;
+    margin-left: 10px;
+    float: left;
+}

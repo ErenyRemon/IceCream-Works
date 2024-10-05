@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies&Dreams</title>
+    <link rel="stylesheet" href="./Cookies&Dreams.css">
+</head>
+
+<body>
+    <div class="divtopOfPage">
+        <a class="divtopOfPageHome" href="https://icecreamworks.com/">Home</a>
+        <a class="divtopOfPageShop"
+            href="https://order.icecreamworks.com/ice-cream-works-all-outlets/select-outlet/delivery">Shop</a>
+        <a class="divtopOfPageAbout" href="https://icecreamworks.com/pages/about-us">About</a>
+
+        <a href="./iceCreamWorks.html"><img class="divtopOfPageimg" src="../images/photo_2024-08-03_16-04-55_preview_rev_1.png" alt=""></a>
+        <a class="divtopOfPageParlours" href="https://icecreamworks.com/pages/stores">Parlours</a>
+        <a class="divtopOfPageFranchies" href="https://icecreamworks.com/pages/franchise">Franchise</a>
+        <a class="divtopOfPageContact" href="./contact.html">Contact</a>
+    </div>
+
+
+    <main>
+        <nav>
+            <div class="bigImage">
+                <img id="mainImage" src="./images/one.webp" width="500" height="500px">
+
+                <div class="imgFront">
+                    <img class="frontImage" src="./images/one.webp" width="100px" height="100px"
+                        onclick="changeImage(this)">
+                    <img class="backImage" src="./images/Capture111.JPG" width="80px" height="100px"
+                        onclick="changeImage(this)">
+                    <img class="roll" src="./images/Capture122.JPG" width="100px" height="100px"
+                        onclick="changeImage(this)">
+                </div>
+            </div>
+
+        </nav>
+
+        <aside class="asideCookies">
+            <br>
+            <br>
+            <h1>Cookies & Dreams</h1>
+            <br>
+            <br>
+            <p>Rs. 355.00</p>
+            <br>
+            <br>
+            <p>Quantity</p>
+            <br>
+            <div class="quantity">
+
+                <div class="quantity1">
+
+                    <button onclick="decrease()" class="quantity1button">-</button>
+                    <!-- style="display: flex; flex-direction: row; justify-content: center;" -->
+                    <input class="quantity1input" type="text" value="0" id="counter" disabled>
+
+                    <button onclick="increase()" class="quantity1button">+</button>
+
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <button class="buttonBuyItNow" style=" background:rgb(9 74 206); color:whitesmoke;">Buy it Now!</button>
+            <br>
+            <br>
+            <p style="width: 500px; font-size: 20px;">For the cookie lover, here's a treat of chocolate cookies held
+                together with incredibly rich ice-cream that takes you straight back to happy childhood memories.</p>
+            <br>
+            <hr style="width: 500px;">
+            <br>
+            <h4 class="materials" onclick="nohidden()">Materials</h4>
+
+            <br>
+
+            <p style="margin-bottom: 20px;" class="materials-content">Ice cream is made from a blend of dairy products,
+                sugar, flavorings, and
+                federally approved additives.</p>
+            <!-- <br> -->
+            <hr style="width: 500px;">
+
+            <br>
+            <br>
+            <h4 class="careInstructions" onclick="nonhide()"> Care Instructions</h4>
+            <br>
+
+            <p style="margin-bottom: 20px;" class="careInstructionsContent">Store ice cream in the main part of the
+                freezer.</p>
+            <hr style="width: 500px;">
+            <div style="margin-top: 20px;" class="shareDiv">
+                <img class="shareDivImg" src="./images/arrow-up-from-bracket-solid.svg" width="15px" height="15px">
+                <p class="classShare">Share</p>
+            </div>
+        </aside>
+
+
+
+    </main>
+
+    <!-- margin-left:500px; -->
+    <br>
+    <br>
+
+    <h2 style="color: white; display:flex; justify-content: center; font-size:30px;">You may also like</h2>
+    <br>
+    <br>
+    <div class="youMayAlso">
+
+
+
+        <div class="image-container">
+            <img class="youMayAlsoImg" src="./images/eleven.webp" width="200px" height="200px"
+                onmouseover="this.src='./images/book-open-cover.png' " onmouseout="this.src='./images/eleven.webp'">
+            <h5 style="font-size: 20px;">That 70's Vanilla</h5>
+            <p style="font-size: 20px;">Rs. 295</p>
+
+
+        </div>
+        <div class="image-container">
+            <img class="youMayAlsoImg" src="./images/eleven.webp" width="200px" height="200px"
+                onmouseover="this.src='./images/book-open-cover.png' " onmouseout="this.src='./images/eleven.webp'">
+            <h5 style="font-size: 20px;">That 70's Vanilla</h5>
+            <p style="font-size: 20px;">Rs. 295</p>
+
+
+        </div>
+
+        <div class="image-container">
+            <img class="youMayAlsoImg" src="./images/eleven.webp" width="200px" height="200px"
+                onmouseover="this.src='./images/book-open-cover.png' " onmouseout="this.src='./images/eleven.webp'">
+            <h5 style="font-size: 20px;">That 70's Vanilla</h5>
+            <p style="font-size: 20px;">Rs. 295</p>
+
+        </div>
+        <div class="image-container">
+            <img class="youMayAlsoImg" src="./images/eleven.webp" width="200px" height="200px"
+                onmouseover="this.src='./images/book-open-cover.png' " onmouseout="this.src='./images/eleven.webp'">
+            <h5 style="font-size: 20px;">That 70's Vanilla</h5>
+            <p style="font-size: 20px;">Rs. 295</p>
+        </div>
+    </div>
+
+    <div>
+        <br>
+        <br>
+        <div>
+            <h1 class="divOurBestsellers"> Our Bestsellers</h1>
+            <br>
+            <br>
+        </div>
+        <div class="divImages">
+
+            <div class="divClassics">
+                <a href="https://icecreamworks.com/collections/chocolate-flavour"><img class="divClassicsImg" src="./images/Capture123123.JPG"></a>
+                <br>
+                <div class="divClassicsText">
+                    <h4>Classics</h4>
+                    <img src="./images/arrow-right-solid (1).svg" width="20px" height="20px">
+                </div>
+            </div>
+
+            <div class="divBlack">
+                <a href="https://icecreamworks.com/collections/black"><img class="divBlackImg" src="./images/Capture234234.JPG"></a>
+                <br>
+                <br>
+                <div class="divBlackText">
+                    <h4>Black</h4>
+                    <img src="./images/arrow-right-solid (1).svg" width="20px" height="20px">
+                </div>
+            </div>
+
+            <div class="divPremium">
+                <a href="https://icecreamworks.com/collections/fruit-flavour"><img class="divPremiumImg" src="./images/Capture345345.JPG"></a>
+                <br>
+                <br>
+                <div class="divPremiumtext">
+                    <h4 style="display: flex;">Premium</h4>
+                    <img src="./images/arrow-right-solid (1).svg" width="20px" height="20px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+
+
+    <div class="divForbottomOfPage">
+        <div class="divForbottomPage">
+            <div id="divForbottomOfPageQuickLinks">
+                <h2>Quick Links</h2>
+                <br>
+                <br>
+                <a class="divForbottomOfPageQuickLinks1" href="https://icecreamworks.com/policies/refund-policy">Refund
+                    Policy</a>
+                <br>
+                <br>
+                <a class="divForbottomOfPageQuickLinks2"
+                    href="https://icecreamworks.com/policies/privacy-policy">Privacy Policy</a>
+                <br>
+                <br>
+                <a class="divForbottomOfPageQuickLinks3"
+                    href="https://icecreamworks.com/policies/terms-of-service">Terms of Service</a>
+                <br>
+                <br>
+                <a class="divForbottomOfPageQuickLinks4" href="https://icecreamworks.com/search">Search</a>
+            </div>
+
+
+            <div class="divForbottomOfPageIceCreamWorks">
+                <h2>Ice Cream Works</h2>
+                <br>
+                <br>
+                <q>From the house of Prince Creamery, we carry a legacy of 58 years.</q>
+                <br>
+                <br>
+                <h2>Subscribe to our emails</h2>
+                <input class="Subscribetoouremails" type="email" placeholder="Email">
+                
+                <a href="https://twitter.com/icecreamworks"><img class="divForbottomOfPageIceCreamWorksImg"
+                        src="./images/twitter-brands-solid.svg" width="20px" height="20px"></a>
+                <a href="https://www.facebook.com/IceCreamWorks/"><img src="./images/facebook-brands-solid.svg"
+                        width="20px" height="20px"></a>
+                <a href="https://www.instagram.com/icecreamworksofficial/"><img
+                        src="./images/instagram-brands-solid.svg" width="20px" height="20px"></a>
+            </div>
+        </div>
+
+        <div class="bottomOfPage">
+            <div class="bottomOfPageparagraph">
+                <p>All Rights Reserved PRINCE CREAMERY PVT. LTD. | © 2024,
+                    <a class="bottomOfPagelink" href="https://icecreamworks.com/">Ice Cream Words</a>
+                    Created by
+                </p>
+            </div>
+            <a href="https://www.yellowad.in/"><img class="bottomOfPageimg" src="./images/endlogo.png" height="40px" width="40px"></a>
+
+
+        </div>
+    </div>
+
+
+
+    <script src="./Cookies&Dreams.js"></script>
+</body>
+
+</html>

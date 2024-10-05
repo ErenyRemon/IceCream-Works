@@ -1,0 +1,237 @@
+body {
+    margin: 0px;
+}
+
+.divtopOfPage {
+    background-color: rgb(9 74 206);
+    text-align: center;
+    margin-bottom: 20px;
+    height: 100px;
+
+}
+
+.divtopOfPageHome,
+.divtopOfPageShop,
+.divtopOfPageAbout,
+.divtopOfPageParlours,
+.divtopOfPageFranchies,
+.divtopOfPageContact {
+    color: white;
+    padding-bottom: 2px;
+    text-decoration: none;
+    margin-left: 10px;
+    vertical-align: 20px;
+
+}
+
+
+.divtopOfPageHome:hover,
+.divtopOfPageShop:hover,
+.divtopOfPageAbout:hover,
+.divtopOfPageParlours:hover,
+.divtopOfPageFranchies:hover,
+.divtopOfPageContact:hover {
+    cursor: pointer;
+     text-decoration: none;
+}
+
+.divtopOfPageimg {
+    height: 70px;
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.bodyOfPage {
+    text-align: center;
+    margin-left: 170px;
+
+}
+
+
+.divHomePage {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    float: left;
+    height: 1500px;
+}
+
+.divHomePagePriceFrom {
+    width: 150px;
+    height: 30px;
+}
+
+.priceOptions{
+    width: 100px;
+  
+}
+
+
+
+
+
+.bodyOfPageTypesOfIceCream {
+    float: left;
+    margin-left: 5px;
+}
+
+.div1bodyOfPageTypesOfIceCream,
+.div2bodyOfPageTypesOfIceCream,
+.div3bodyOfPageTypesOfIceCream,
+.div4bodyOfPageTypesOfIceCream,
+
+.bodyOfPageTypesOfIceCreamimg1,
+.bodyOfPageTypesOfIceCreamimg2,
+.bodyOfPageTypesOfIceCreamimg3,
+.bodyOfPageTypesOfIceCreamimg4,
+
+.div5bodyOfPageTypesOfIceCream,
+.div6bodyOfPageTypesOfIceCream,
+.div7bodyOfPageTypesOfIceCream,
+.div8bodyOfPageTypesOfIceCream,
+.div9bodyOfPageTypesOfIceCream,
+.div10bodyOfPageTypesOfIceCream,
+.div11bodyOfPageTypesOfIceCream,
+
+.bodyOfPageTypesOfIceCreamimg5,
+.bodyOfPageTypesOfIceCreamimg6,
+.bodyOfPageTypesOfIceCreamimg7,
+.bodyOfPageTypesOfIceCreamimg8,
+.bodyOfPageTypesOfIceCreamimg9,
+.bodyOfPageTypesOfIceCreamimg10,
+.bodyOfPageTypesOfIceCreamimg11 {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 30px;
+    /* margin: 10px; */
+    margin-top: 80px;
+
+}
+
+.bodyOfPageTypesOfIceCreamCookies,
+.bodyOfPageTypesOfIceCreamChocolate,
+.bodyOfPageTypesOfIceCreamSeaSalat,
+.bodyOfPageTypesOfIceCreamMadagascar,
+.bodyOfPageTypesOfIceCreamMidnight,
+.bodyOfPageTypesOfIceCreamBlegian,
+.bodyOfPageTypesOfIceCreamDouble,
+.bodyOfPageTypesOfIceCreamKing,
+.bodyOfPageTypesOfIceCreamMister,
+.bodyOfPageTypesOfIceCreamCrunch,
+.bodyOfPageTypesOfIceCreamThat {
+    margin-left: 45px;
+}
+
+
+.bodyOfPageTypesOfIceCreamprice1,
+.bodyOfPageTypesOfIceCreamprice2,
+.bodyOfPageTypesOfIceCreamprice3,
+.bodyOfPageTypesOfIceCreamprice4,
+.bodyOfPageTypesOfIceCreamprice5,
+.bodyOfPageTypesOfIceCreamprice6,
+.bodyOfPageTypesOfIceCreamprice7,
+.bodyOfPageTypesOfIceCreamprice8,
+.bodyOfPageTypesOfIceCreamprice9,
+.bodyOfPageTypesOfIceCreamprice10 {
+    margin-left: 45px;
+}
+
+.div11bodyOfPageTypesOfIceCream {
+    margin-bottom: 200px;
+}
+
+.divForbottomOfPage {
+    /* margin: 0px; */
+   
+    clear: both;
+    background-color: rgb(9 74 206);
+    color: white;
+    /* margin-top: 1000px; */
+    /* padding-top: 300px; */
+    width: 100%;
+    height: 400px;
+    padding-top: 20px;
+}
+
+
+#divForbottomOfPageQuickLinks {
+    margin-left: 40px;
+    padding-top: 20px;
+    color: white;
+    float: left;
+    margin: auto;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    /* height: 500px; */
+}
+
+.divForbottomOfPageQuickLinks1,
+.divForbottomOfPageQuickLinks2,
+.divForbottomOfPageQuickLinks3,
+.divForbottomOfPageQuickLinks4{
+    text-decoration: none;
+    color: white;
+}
+.divForbottomOfPageQuickLinks1:hover,
+.divForbottomOfPageQuickLinks2:hover,
+.divForbottomOfPageQuickLinks3:hover,
+.divForbottomOfPageQuickLinks4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.divForbottomOfPageQuickLinks:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.divForbottomOfPageIceCreamWorks{
+    color: white;
+    float: left;
+    margin-left: 500px;
+}
+
+.Subscribetoouremails{
+    padding-right: 30px; 
+}
+
+.divForbottomOfPageIceCreamWorksImg{
+    margin-left: 150px;
+}
+
+
+
+.bottomOfPage{
+    clear: both;
+    margin-top: 50px;
+}
+
+.bottomOfPagelink{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+
+}
+
+.bottomOfPagelink:hover{
+    cursor: pointer;
+    text-decoration: underline;   
+}
+
+.bottomOfPageparagraph{
+    padding-top: 20px;
+    /* margin-top: 10px; */
+    float: left;
+    margin-left: 400px;
+}
+
+.bottomOfPageimg{
+    margin-top: 25px;
+    margin-left: 10px;
+    float: left;
+    /* clear: both; */
+}
+
+
