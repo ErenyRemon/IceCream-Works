@@ -1,62 +1,62 @@
 {
     "data": [
         {
-            "img": "../images/one.webp",
+            "img": "./images/one.webp",
             "type": "Cookies&Dreams",
             "price": 355
         },
         {
-            "img": "../images/two.webp",
+            "img": "./images/two.webp",
             "type": "Chocolate & To Die For",
             "price": 89
         },
         {
-            "img": "../images/three.webp",
+            "img": "./images/three.webp",
             "type": "Sea Salat Caramel Fudge",
             "price": 150
         },
         {
-            "img": "../images/four.webp",
+            "img": "./images/four.webp",
             "type": "Madagascar's Finest Chocolate",
             "price": 89
         },
         {
-            "img": "../images/five.webp",
+            "img": "./images/five.webp",
             "type": "Midnight Chocolate Brownie",
             "price": 355
         },
         {
-            "img": "../images/six.webp",
+            "img": "./images/six.webp",
             "type": "Blegian Choco Fudge",
             "price": 355
         },
         {
-            "img": "../images/seven.webp",
+            "img": "./images/seven.webp",
             "type": "Double Strawberry Chocolate Chip",
             "price": 355
         },
         {
-            "img": "../images/eight.webp",
+            "img": "./images/eight.webp",
             "type": "King Alphonso",
             "price": 250
         },
         {
-            "img": "../images/nine.webp",
+            "img": "./images/nine.webp",
             "type": "Mister Chocolate Chip",
             "price": 295
         },
         {
-            "img": "../images/ten.webp",
+            "img": "./images/ten.webp",
             "type": "Crunch N Nut ButterScotch",
             "price": 295
         },
         {
-            "img": "../images/eleven.webp",
+            "img": "./images/eleven.webp",
             "type": "That 70's Vanilla",
             "price": 295
         },
         {
-            "img": "../images/two.webp",
+            "img": "./images/two.webp",
             "type": "Chocolate & To Die For",
             "price": 80
         }
